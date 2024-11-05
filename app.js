@@ -211,20 +211,15 @@ const buzz=[]
 const fizzbuzz=[]
 
 nums.forEach((num) => {
-    
-    if (num % 3 === 0){
-        fizz.push(num);
+    if (num % 3 === 0) {
+        fizz.push(num);  
     }
-
-    if (num % 3 && num % 5){
+    if (num % 5 === 0) {
+        buzz.push(num); 
+    }
+    if (num % 3 === 0 && num % 5 === 0) {
         fizzbuzz.push(num)
     }
-    
-    else if(num % 5 === 0){
-        buzz.push(num)
-    }
-
-
 });
 
 
