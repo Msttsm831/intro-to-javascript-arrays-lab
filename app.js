@@ -177,8 +177,8 @@ const odds = [];
 nums.forEach((num) => {
     
     if (num % 2 === 1) 
-        odds.push(num);   
-});
+        odds.push(num)   
+})
 
 
 
@@ -215,12 +215,12 @@ nums.forEach((num) => {
         fizz.push(num);  
     }
     if (num % 5 === 0) {
-        buzz.push(num); 
+        buzz.push(num) 
     }
     if (num % 3 === 0 && num % 5 === 0) {
         fizzbuzz.push(num)
     }
-});
+})
 
 
 
